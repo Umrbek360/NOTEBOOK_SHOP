@@ -16,7 +16,7 @@ from telegram.ext import (
 )
 
 # BOT TOKENNI YANGILANG VA HECH QACHON HAMMA KO'RSIN DEB QO'YMANG!
-BOT_TOKEN = "8290213646:AAFuNi6cb-Utic4cYH22x7SyFZGbB7rMXJM"
+BOT_TOKEN = ""
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -244,4 +244,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':  # name -> name
+
     main()
